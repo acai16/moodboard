@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Colorpicker from './Colorpicker.jsx'
 
 
-
 export default function Imagebank(props) {
   const [positions, setPositions] = useState({});
   const [draggedImage, setDraggedImage] = useState(null);
