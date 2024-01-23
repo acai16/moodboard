@@ -1,0 +1,47 @@
+
+.imagebank{
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0px 8px #000000;
+  border-radius: 8px;
+}
+
+.imagebank ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  
+}
+.mainnav
+{
+  display:flex;
+}
+.imagebank li
+{
+  padding-left: 40px;
+}
+.imagebank button,
+.imagebank input[type="file"] {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 0px 3px #000000;
+}
+
+.SketchPicker
+{
+  width: 5px;
+}
+.logo
+{
+  width: 40px;
+}
+.image :hover 
+{
+  box-shadow: 0 0 20px white;
+}
